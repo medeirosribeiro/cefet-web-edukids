@@ -1,7 +1,9 @@
 /* Exercício 1: Criar uma transição para quando o mouse estiver em cima dos
  * botões play/stop (para que o elemento se revele lentamente)
  */
-
+#controles ul{
+	transition: transform 500ms linear;
+}
 /*
  * Exercício 2: Criar uma imagem sprite com as imagens de todos os 9 animais e,
  * assim, fazer com que a página carregue mais rápido.
